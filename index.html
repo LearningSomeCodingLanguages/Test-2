@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+  <title>Test 2</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <p id="first">Click the buttons to change this..</p>
+  <button type="button" onclick="document.getElementById('first').innerHTML = 'Hello Reader(s)!'">Click here for the 1st part!</button>
+  <button type="button" onclick="document.getElementById('first').innerHTML = 'Can you guess my name?'">Click here for the 2nd part!</button>
+  <button type="button" onclick="document.getElementById('first').innerHTML = 'My name is Kevin Alcaraz!'">Click here for the 3rd part!</button>
+
+  <p id="second">Please don't do it!</p>
+  <p id="third" display:none;> It's too late you already did it..</p>
+  <p id="third-a" display:none;>Still.. It's to late. You can't undo this..</p>
+  <p id="third-b" display:none;>Nope, sorry.</p>
+  <p id="third-c" display:none;>One more time..</p>
+  <p id="third-d" display:none;>Only because i feel pity. Here..</p>
+  <button type="button" id='a' onclick="document.getElementById('second').style.display='none'">Do it...</button>
+  <button type="button" id='b' onclick="document.getElementById('third').style.display='block'" display:none;>Try to undo it.</button>
+  
+  <button type="button" id='c' onclick="document.getElementById('third-a').style.display='none'" display:none;>I'm sorry :(</button>
+  <button type="button" id='d' onclick="document.getElementById('third-b').style.display='display'" display:none;>Please :(</button>
+  
+  <button type="button" id='e' onclick="document.getElementById('third-c').style.display='none'" display:none;>Pretty Please :(</button>
+  <button type="button" id='f' onclick="document.getElementById('third-d').style.display='block'" display:none;>Undo it for real.</button>
+  
+  
+<script src="script.js"></script>
+</body>
+</html>
