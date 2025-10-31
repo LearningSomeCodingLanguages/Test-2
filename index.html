@@ -17,12 +17,12 @@
   <p id="third-c" style="display:none;">Nope, sorry.</p>
   <p id="third-d" style="display:none;">Only because i feel pity. Here..</p>
   <button type="button" id='a' onclick="document.getElementById('second').style.display='none', document.getElementById('b').style.display='block'">Do it...</button>
-  <button type="button" id='b' onclick="document.getElementById('third').style.display='block'" style="display:none;">Try to undo it.</button>
+  <button type="button" id='b' onclick="document.getElementById('third').style.display='block', document.getElementById('c').style.display='block'" style="display:none;">Try to undo it.</button>
   
-  <button type="button" id='c' onclick="document.getElementById('third-a').style.display='none'" style="display:none;">I'm sorry :(</button>
-  <button type="button" id='d' onclick="document.getElementById('third-b').style.display='display'" style="display:none;">Please :(</button>
+  <button type="button" id='c' onclick="document.getElementById('third-a').style.display='none', document.getElementById('d').style.display='block'" style="display:none;">I'm sorry :(</button>
+  <button type="button" id='d' onclick="document.getElementById('third-b').style.display='display', document.getElementById('e').style.display='block'" style="display:none;">Please :(</button>
   
-  <button type="button" id='e' onclick="document.getElementById('third-c').style.display='none'" style="display:none;">Pretty Please :(</button>
+  <button type="button" id='e' onclick="document.getElementById('third-c').style.display='none', document.getElementById('f').style.display='block'" style="display:none;">Pretty Please :(</button>
   <button type="button" id='f' onclick="document.getElementById('third-d').style.display='block', document.getElementById('g').style.display='block'" style="display:none;">Thank you!</button>
 
   <button type="button" id='g' onclick="document.getElementById('second').style.display='block'" style="display:none;">Undo it for real.</button>
